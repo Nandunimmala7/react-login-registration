@@ -1,0 +1,84 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  body {
+    background-image: url('../assets/R\ \(1\).jpeg');
+    background-size: cover;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background-color: #f5f5f5;
+    opacity: 0.5;
+  }
+  
+  .h1 {
+    margin-top: 10px;
+    animation: colorchange 2s infinite alternate;
+  }
+  
+  @keyframes colorchange {
+    0% {
+      color:  #e4e418;
+    }
+    50% {
+      color: rgb(235, 162, 6);
+    }
+    100% {
+      color: red;
+    }
+  }
+  .h1:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  }
+  .form{
+    margin-top: 30px;
+  }
+  .h4 {
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .input:hover {
+    border-bottom: 1px solid palevioletred;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  h6{
+    cursor: pointer;
+  }
+  
