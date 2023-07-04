@@ -1,0 +1,29 @@
+.search-bar {
+    background-color: antiquewhite;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 34%;
+    width: 30%;
+    height: 40px;
+    transition: width 0.3s;
+  }
+  
+  .label {
+    margin-right: 30px;
+  }
+  
+  .search {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 70%;
+    cursor: pointer;
+  }
+  
+  .search-bar:hover .search,
+  .search-bar:focus .search {
+    width: 50%;
+  }
