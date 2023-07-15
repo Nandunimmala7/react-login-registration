@@ -1,0 +1,13 @@
+.flip{
+    border: 1px solid black;
+}
+.container 
+  {
+    right: 0;
+  }
+  .container-NX
+  {
+    width: 400px;
+    height: 93vh;
+  overflow: auto;
+  }

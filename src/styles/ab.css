@@ -1,0 +1,15 @@
+.ab{
+    
+    border: 1px solid black;   
+    margin-top: 7%;
+     position: absolute;
+        right: 0;
+        top: 0px;
+        height: 100vh;
+        background-color: #EAF0F7;
+        left: 380px;
+}
+.img{
+    width: 20px;
+    height: 20px;
+}

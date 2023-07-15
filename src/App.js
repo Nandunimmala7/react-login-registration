@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Shopping from "./components/Shopping";
 import Expeirnce from "./components/Expeirnce";
 import About from "./components/About";
+import HomeExe from "./components/HomeExe";
 
 import "./styles/header.css"
 import "./styles/home.css"
@@ -31,10 +32,11 @@ function App() {
         <Router>
           <Header />
           <Routes>
-              <Route path="/" element = {<Home d={fetchData}/>}/>
+              <Route path="/" element = {<Home data={data}/>}/>
               <Route path="/about" element = {<About />}/>
               <Route path="/experirnce" element = {<Expeirnce />}/>
               <Route path="/shopping" element = {<Shopping />}/>
+              <Route path="/homeexe" element = {<HomeExe />}/>
           </Routes>
         </Router>
     </div>
